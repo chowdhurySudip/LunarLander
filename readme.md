@@ -1,10 +1,10 @@
 # Solving Lunar Lander Problem Using DQN
 
-In recent years, deep reinforcement learning hasseen major breakthroughs in solving the real world challengesin various domains. Deep Q-Network (DQN), implemented byMinh [1], is one of those early breakthroughs that achievedstate-of-the-art results in different Atari Games without anyhandcrafted features or change in learning algorithm. This articledemonstrates the effectiveness of DQN in solving OpenAI gym’sLunar Lander problem. Similar to Minh, I also used ANNs toapproximate the state-action value function. Moreover, I usedhyperparameter tuning to identify the best set of parametersthat solves the problem with least number of episodes. Duringthis experimentation, I found that the exploration strategy,architecture of the ANN and gamma has the most impact onthe agent’s training process.
+In recent years, deep reinforcement learning has seen major breakthroughs in solving the real world challenges in various domains. Deep Q-Network (DQN), implemented by Minh [1], is one of those early breakthroughs that achieved state-of-the-art results in different Atari Games without any handcrafted features or change in learning algorithm. This article demonstrates the effectiveness of DQN in solving OpenAI gym’sLunar Lander problem. Similar to Minh, I also used ANNs to approximate the state-action value function. Moreover, I used hyperparameter tuning to identify the best set of parameters that solves the problem with least number of episodes. During this experimentation, I found that the exploration strategy, architecture of the ANN and discount rate has the most impact on the agent’s training process.
 
 ## Getting Started
 
-For quick experiments, you can use [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) using `project_2_LunarLander_v2_dqn.ipynb`. You can also run the experiments locally.
+For quick experiments, you can use [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) using `LunarLander_v2_dqn.ipynb`. You can also run the experiments locally.
 
 ### Requirements
 
